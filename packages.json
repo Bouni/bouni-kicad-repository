@@ -1,0 +1,37 @@
+{
+    "packages": [
+        {
+          "$schema": "https://go.kicad.org/pcm/schemas/v1",
+          "name": "KiCAD JLCPCB tools",
+          "description": "A JLCPCB integration addon for KiCAD",
+          "description_full": "This plugin allows you to search the JLCPCB parts database, assign LCSC article numbers to your parts, generate production files for JLCPCB and much more.",
+          "identifier": "com.github.bouni.kicad-jlcpcb-tools",
+          "type": "plugin",
+          "author": {
+              "name": "Bouni",
+              "contact": {
+                  "twitter": "@bouni2016"
+              }
+          },
+          "maintainer": {
+              "name": "Bouni",
+              "contact": {
+                  "twitter": "@bouni2016"
+              }
+          },
+          "license": "WTFPL",
+          "resources": {
+              "homepage": "https://github.com/bouni/kicad-jlcpcb-tools"
+          },
+          "versions": [{
+              "version": "2021.12.1",
+              "status": "testing",
+              "kicad_version": "6.0",
+              "download_sha256": "d79aa920c6b01381859b90b08817fbf826823520fda86564f1d76c9d84306885",
+              "download_size": 6593,
+              "download_url": "https://github.com/Bouni/kicad-jlcpcb-tools/archive/refs/tags/2021.12.1/KiCAD-PCM-2021.12.1.zip",
+              "install_size": 9346
+          }]
+      }
+    ]
+}
