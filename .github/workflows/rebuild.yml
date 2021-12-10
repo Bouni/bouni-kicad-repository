@@ -3,7 +3,21 @@
 name: Rebuild repository
 
 # Controls when the workflow will run
-on: workflow_dispatch
+on: 
+  workflow_dispatch:
+     inputs:
+      DOWNLOAD_SHA256:
+        description: 'SHA256 sum of the zip file'
+        required: true
+      DOWNLOAD_SIZE:
+        description: 'Size of the zip file'
+        required: true
+      DOWNLOAD_URL:
+        description: 'URL of the zip file'
+        required: true
+      INSTALL_SIZE:
+        description: 'Size of the extracted zip file'
+        required: true
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
