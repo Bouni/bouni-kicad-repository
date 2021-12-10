@@ -36,5 +36,5 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Regenerate josn files
-        run: python generate.py ${{ github.event.inputs.VERSION }}${{ github.event.inputs.DOWNLOAD_SHA256 }}${{ github.event.inputs.DOWNLOAD_SIZE }}${{ github.event.inputs.DOWNLOAD_URL }} ${{ github.event.inputs.INSTALL_SIZE }}
+        run: python generate.py ${{ github.event.inputs.VERSION }} ${{ github.event.inputs.DOWNLOAD_SHA256 }}${{ github.event.inputs.DOWNLOAD_SIZE }}${{ github.event.inputs.DOWNLOAD_URL }} ${{ github.event.inputs.INSTALL_SIZE }}
 
