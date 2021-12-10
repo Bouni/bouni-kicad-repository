@@ -33,5 +33,5 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: ${{ github.event.inputs.DOWNLOAD_SHA256 }}
+        run: echo ${{ github.event.inputs.DOWNLOAD_SHA256 }}
 
