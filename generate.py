@@ -17,9 +17,9 @@ with open("packages.json", "r+") as f:
           "status": "testing",
           "kicad_version": "6.0",
           "download_sha256": DOWNLOAD_SHA256,
-          "download_size": DOWNLOAD_SIZE,
+          "download_size": int(DOWNLOAD_SIZE),
           "download_url": DOWNLOAD_URL, 
-          "install_size": INSTALL_SIZE
+          "install_size": int(INSTALL_SIZE)
     }
     index = None
     for i, version in enumerate(data["packages"][0]["versions"]):
