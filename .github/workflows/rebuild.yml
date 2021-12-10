@@ -6,6 +6,9 @@ name: Rebuild repository
 on: 
   workflow_dispatch:
      inputs:
+      VERSION:
+        description: 'Version of the new release'
+        required: true
       DOWNLOAD_SHA256:
         description: 'SHA256 sum of the zip file'
         required: true
