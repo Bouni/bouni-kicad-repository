@@ -68,6 +68,15 @@
                     "download_size": 66299,
                     "download_url": "https://github.com/Bouni/kicad-jlcpcb-tools/releases/download/2022.01.01/KiCAD-PCM-2022.01.01.zip",
                     "install_size": 147879
+                },
+                {
+                    "version": "2022.01.02",
+                    "status": "testing",
+                    "kicad_version": "6.0",
+                    "download_sha256": "1fa93ce8550b44de0565b66e9ec75ed6252fe2b5a978a1e31043939711261f14",
+                    "download_size": 66318,
+                    "download_url": "https://github.com/Bouni/kicad-jlcpcb-tools/releases/download/2022.01.02/KiCAD-PCM-2022.01.02.zip",
+                    "install_size": 147989
                 }
             ]
         }
