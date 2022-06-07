@@ -8,9 +8,9 @@
     },
     "name": "Bouni's KiCad repository",
     "packages": {
-        "sha256": "8c7e08214a1f9392fe2d6ea75e288a87b2e41642eb94f06b7e844beb3a86e8bf",
-        "update_time_utc": "2022-05-04 11:42:01",
-        "update_timestamp": 1651664521,
+        "sha256": "5b34d0d07221f18c7de820532dbbae386124e5c95c86870cacfbedb29e9b09e8",
+        "update_time_utc": "2022-06-07 10:08:21",
+        "update_timestamp": 1654596501,
         "url": "https://raw.githubusercontent.com/Bouni/bouni-kicad-repository/main/packages.json"
     },
     "resources": {
